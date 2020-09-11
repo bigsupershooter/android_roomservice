@@ -1,4 +1,5 @@
 Getting Started
+
 To get started with Android/LineageOS, you'll need to get familiar with Git and Repo.
 
 To initialize your local repository, in the directory of your choice, using the LineageOS trees, use a command like this:
@@ -17,5 +18,4 @@ Then to sync up:
 
 repo sync
 
-if you want less download and no git history so save bandwidth, add --depth=1 to the end of the repo init command.
 Please see the LineageOS Wiki for building instructions.
