@@ -19,3 +19,4 @@ Then to sync up:
 repo sync
 
 Please see the LineageOS Wiki for building instructions.
+http://wiki.lineageos.org/
