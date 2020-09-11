@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android_build" />
+  <project path="build" name="bigsupershooter/android_build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="device/htc/msm8660-common" name="bigsupershooter/android_device_htc_msm8660-common" />
+  <project path="device/htc/shooter" name="bigsupershooter/android_device_htc_shooter" />
+  <project path="device/htc/shooter-common" name="bigsupershooter/android_device_htc_shooter-common" />
+  <project path="device/htc/shootervm" name="bigsupershooter/android_device_htc_shootervm" />
+
+  <project path="kernel/htc/msm8660" name="bigsupershooter/android_kernel_htc_msm8660" />
+
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project path="frameworks/av" name="bigsupershooter/android_frameworks_av" groups="pdk" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="bigsupershooter/android_frameworks_opt_telephony" groups="pdk" />
+  <remove-project name="LineageOS/android_hardware_libhardware" />
+  <project path="hardware/libhardware" name="bigsupershooter/android_hardware_libhardware" groups="pdk" />
+  <remove-project name="LineageOS/android_hardware_libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="bigsupershooter/android_hardware_libhardware_legacy" groups="pdk" />
+  <remove-project name="LineageOS/android_hardware_qcom_display-caf" />
+  <project path="hardware/qcom/display-caf" name="bigsupershooter/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/display-caf-new" name="LineageOS/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/display-legacy" name="bigsupershooter/android_hardware_qcom_display-legacy" />
+  <project path="hardware/qcom/gps-legacy" name="bigsupershooter/android_hardware_qcom_gps-legacy" />
+  <remove-project name="LineageOS/android_hardware_qcom_media-caf" />
+  <project path="hardware/qcom/media-caf" name="bigsupershooter/android_hardware_qcom_media-caf" groups="caf" />
+  <project path="hardware/qcom/media-caf-new" name="LineageOS/android_hardware_qcom_media-caf" groups="caf" />
+  <project path="hardware/qcom/media-legacy" name="bigsupershooter/android_hardware_qcom_media-legacy" />
+
+  <project path="prebuilt/linux-x86/toolchain/linaro-arm-cortex-a8" name="bigsupershooter/linaro-arm-cortex-a8" />
+  <project path="vendor/htc" name="bigsupershooter/android_vendor_htc" />
+  <remove-project name="LineageOS/android_packages_apps_Mms-caf" />
+  <project path="packages/apps/Mms" name="LineageOS/android_packages_apps_Mms" />
+
+</manifest>
